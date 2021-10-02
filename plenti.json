@@ -1,0 +1,11 @@
+{
+	"routes": {
+		"pages": ":filename",
+    "index": ":paginate(totalPages)"
+	},
+	"baseurl": "/",
+	"build": "public",
+	"local": {
+		"port": 3030
+	}
+}

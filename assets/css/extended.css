@@ -1,0 +1,76 @@
+/*claxxmoldii/2021.3.5*/
+body {
+  background-color: #f5f5f5;
+}
+
+.flow > * + * {
+  margin-top: 1rem;
+}
+/*
+margin is applied to all children except :first-child
+solves collapsing margins
+*/
+
+.isGrid {
+  display: grid;
+}
+
+.isFlex {
+  display: flex;
+}
+
+.isFlexColumn {
+ display: flex;
+ flex-direction: column;
+}
+
+.isFlexRow {
+ display: flex;
+ flex-direction: row;
+}
+
+.isFlexCentered {
+  display: flex;
+  justify-content: center;
+}
+
+.isMarginAutoCentered {
+  margin: 0 auto;
+}
+
+.isListStyledNon {
+  list-style-type: none;
+}
+
+.isLinkTextDecorationNone {
+  text-decoration: none;
+  color: inherit;
+}
+
+.bgcIsBeige {
+  background-color:  beige;
+}
+
+.bgcIsPink {
+  background-color:  pink;
+}
+
+.bgcIsCornSilk {
+  background-color:  cornsilk;
+}
+
+.bgcIsLightPink {
+  background-color:  lightpink;
+}
+
+.bgcIsLightSkyBlue {
+  background-color:  lightskyblue;
+}
+
+.bgcIsDarkSeaGreen {
+  background-color:  darkseagreen;
+}
+
+.bgcIsPaleTurquoise {
+  background-color:  paleturquoise;
+}

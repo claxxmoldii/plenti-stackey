@@ -1,0 +1,11 @@
+{
+	"title": "plenti-stackey",
+	"description": [
+		"'plenti-stackey' is a tall, scrolling site design based on top of the plenti proto-type site. all of plenti's original components are expressed in this long tall scroller.",
+    "plent-stackey is also built with 'skeleton.css' which is a very small framework.",
+    "it was made to become a sort of, repository, of ui and ux stuff that i have learned over the years and always use. such as the full background image fx used ont the 'landing' component.",
+    "hopefully, this repo-site grows into something silly and wonderful soon!"
+	],
+	"author": "claxx moldii",
+  "isit": true
+}
