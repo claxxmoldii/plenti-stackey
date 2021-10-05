@@ -13,7 +13,7 @@
       scrollWheelZoom: false
     });
 
-    map.scrollWheelZoom.disable();
+    //map.scrollWheelZoom.disable();
   });
 </script>
 
