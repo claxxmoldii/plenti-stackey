@@ -6,5 +6,6 @@
 		"The <a href='https://svelte.dev/' target='blank' rel='noopener noreferrer'>Svelte</a> frontend gives users get a snappy experience, and the <a href='https://golang.org/' target='blank' rel='noopener noreferrer'>Go</a> backend builds fast so you can get more done."
 	],
 	"author": "Jim Fisk",
+  "rootUrl": "blog",
   "isBlog": true
 }

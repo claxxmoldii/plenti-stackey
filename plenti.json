@@ -1,6 +1,6 @@
 {
 	"routes": {
-		"pages": ":filename",
+		"pages": ":filename/:paginate(totalPages)",
     "index": ":paginate(totalPages)"
 	},
 	"baseurl": "/",
