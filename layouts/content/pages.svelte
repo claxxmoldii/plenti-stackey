@@ -9,11 +9,12 @@
   import Pager from "../components/pager.svelte";
 
   $: currentPage = content.pager;
+  let postsPerPagesPage = 3;
   let allPosts = allContent.filter(content => content.type == "blog");
   let totalPosts = allPosts.length;
-  let totalPages = Math.ceil(totalPosts / postsPerPage);
-  $: postRangeHigh = currentPage * postsPerPage;
-  $: postRangeLow = postRangeHigh - postsPerPage;
+  let totalPages = Math.ceil(totalPosts / postsPerPagesPage);
+  $: postRangeHigh = currentPage * postsPerPagesPage;
+  $: postRangeLow = postRangeHigh - postsPerPagesPage;
 </script>
 
 <section class="" class:shohei class:arai>
@@ -47,7 +48,7 @@
             <Grid items={allPosts} {postRangeLow} {postRangeHigh} />
             <br />
           </div>
-          <Pager {currentPage} {totalPages} />
+          <Pager {currentPage} {totalPages} rootUrl={content.fields.rootUrl} />
           <Uses {content} />
         </div>
       </section>
